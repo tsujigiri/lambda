@@ -1,6 +1,13 @@
 # Lambda
 
-Just an alias for `Kernel#lambda` for you to use pretty `λ`s instead.
+Lets you write `λ` for `lambda`. That is all.
+
+## Usage
+
+```ruby
+my_lambda = λ {|foo| foo.reverse }
+my_lambda["bar"] # => "rab"
+```
 
 ## Installation
 
@@ -15,13 +22,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install lambda
-
-## Usage
-
-```ruby
-my_lambda = λ {|foo| foo.reverse }
-my_lambda["bar"] # => "rab"
-```
 
 ## Contributing
 
